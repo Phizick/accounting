@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    max-width: 1240px;
+    padding-top: 30px;
+    border-bottom: rgba(90,113,95, .3) 1px solid;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 15px;
+}
