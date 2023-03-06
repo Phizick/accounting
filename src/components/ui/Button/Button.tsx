@@ -1,13 +1,13 @@
 import React from "react";
 import ButtonStyles from './Button.module.css'
 
-interface ButtonProps extends React.HTMLProps<HTMLButtonElement> {
+interface IButtonProps extends React.HTMLProps<HTMLButtonElement> {
     text: string,
     type: 'blue' | 'white'
     extraClass?: string
 }
 
-export const Button: React.FC<ButtonProps> = ({
+export const Button: React.FC<IButtonProps> = ({
     text,
     extraClass = '',
     type = 'blue',

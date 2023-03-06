@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0;
+    height: 300px;
+    transition: 450ms transform;
+    font-size: 0;
+    white-space: nowrap;
+}
+
+.container:hover {
+    transform: translate3d(20px, 0, 0);
+}
+
+.list {
+    margin: 0 auto;
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}

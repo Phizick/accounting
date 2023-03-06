@@ -1,0 +1,15 @@
+.container {
+    background: rgba(244, 245, 246, 1);
+    padding: 45px;
+    margin-bottom: 50px;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 12px;
+    color: rgba(119, 126, 144, 1);
+    font-size: 35px;
+    font-weight: 600;
+
+}
+
