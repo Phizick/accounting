@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+    border-bottom: rgba(90,113,95, .3) 1px solid;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    padding-left: 150px;
+}
+
+.title {
+    margin: 0;
+    font-size: 64px;
+    font-weight: 700;
+    padding: 12px 0 20px 0;
+    line-height: 64px;
+}
+
+.subtitle {
+    color: rgba(119, 126, 144, 1);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.altSubtitle {
+    color: rgba(119, 126, 144, 1);
+    font-size: 16px;
+}
+
+.buttons {
+    display: flex;
+    padding-top: 40px;
+    gap: 16px;
+}
+

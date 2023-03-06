@@ -5,6 +5,17 @@
     height: 40px;
     border: 2px solid transparent;
     max-width: 352px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.buttonBlue:hover {
+    background-color: rgba(255,255,255, 1);
+    border: 2px solid rgba(230, 232, 236, .8);
+}
+
+.buttonBlue:hover .textBlue {
+    color: rgba(35, 38, 47, 1);
 }
 
 .buttonWhite {
@@ -14,6 +25,17 @@
     height: 40px;
     border: 2px solid rgba(230, 232, 236, .8);
     max-width: 352px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.buttonWhite:hover {
+    background-color: rgba(55, 114, 255, 1);
+    border: 2px solid transparent;
+}
+
+.buttonWhite:hover .textWhite {
+    color: rgba(252, 252, 253, 1);
 }
 
 .textBlue {
@@ -22,6 +44,7 @@
     font-size: 14px;
     font-weight: 700;
     font-family: 'Droid Sans Mono', sans-serif;
+    transition: .3s;
 }
 
 .textWhite {
@@ -30,4 +53,5 @@
     font-size: 14px;
     font-weight: 700;
     font-family: 'Droid Sans Mono', sans-serif;
+    transition: .3s;
 }

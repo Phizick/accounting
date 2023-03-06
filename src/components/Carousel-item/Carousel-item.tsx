@@ -21,9 +21,7 @@ export const CarouselItem: React.FC<ICarouselItemProps> = ({
                     <div className={CarouselItemStyles.labelContainer}>
                         <p className={CarouselItemStyles.count}>#{count}</p>
                     </div>
-                    <div className={CarouselItemStyles.about}>
-
-                    </div>
+                    <p className={CarouselItemStyles.about}>Узнать &#8594;</p>
                 </div>
                 <div className={CarouselItemStyles.profile}>
                     <div className={CarouselItemStyles.profileContainer}>

@@ -4,6 +4,7 @@ import {Header} from "../../components/Header/Header";
 import {Head} from "../../components/Head/Head";
 import {Offer} from "../../components/Offer/Offer";
 import {Services} from "../../components/Services/Services";
+import {About} from "../../components/About/About";
 
 export const MainPage = () => {
     return (
@@ -13,6 +14,7 @@ export const MainPage = () => {
                 <Head/>
                 <Offer/>
                 <Services/>
+                <About/>
             </main>
         </>
     )

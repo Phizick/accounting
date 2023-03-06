@@ -68,8 +68,8 @@
     transition: .5s;
 }
 
-.profileContainer:hover {
-    transform: scale(1.2);
+.tile:hover .profileContainer {
+    transform: scale(1.4);
     padding: 10px 0;
 }
 
@@ -99,6 +99,17 @@
     text-align: center;
     color: rgba(119, 126, 144, 1);
 
+}
+
+.about {
+    color: rgba(119, 126, 144, 1);
+    font-size: 14px;
+    transition: .3s;
+    opacity: 0;
+}
+
+.tile:hover .about {
+    opacity: 1;
 }
 
 
