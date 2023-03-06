@@ -5,6 +5,7 @@ import {Head} from "../../components/Head/Head";
 import {Offer} from "../../components/Offer/Offer";
 import {Services} from "../../components/Services/Services";
 import {About} from "../../components/About/About";
+import {Footer} from "../../components/Footer/Footer";
 
 export const MainPage = () => {
     return (
@@ -15,6 +16,7 @@ export const MainPage = () => {
                 <Offer/>
                 <Services/>
                 <About/>
+                <Footer/>
             </main>
         </>
     )
