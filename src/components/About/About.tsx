@@ -2,6 +2,7 @@ import AboutStyles from './About.module.css'
 import img from '../../images/cubes.png'
 import {Button} from "../ui/Button/Button";
 
+
 export const About = () => {
     return (
         <div className={AboutStyles.container}>

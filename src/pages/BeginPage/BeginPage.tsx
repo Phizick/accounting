@@ -5,17 +5,17 @@ import {Footer} from "../../components/Footer/Footer";
 import {Title} from "../../components/Title/Title";
 import {MainText} from "../../components/MainText/MainText";
 
-export const DocsPage = () => {
+export const BeginPage = () => {
     return (
         <>
-        <Header/>
-    <main className={MainPageStyles.mainContent}>
-        <Title />
-        <MainText/>
+            <Header/>
+            <main className={MainPageStyles.mainContent}>
 
 
 
-    </main>
+
+
+            </main>
             <Footer/>
         </>
     )

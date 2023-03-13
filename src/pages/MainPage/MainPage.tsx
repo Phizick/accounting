@@ -16,8 +16,9 @@ export const MainPage = () => {
                 <Offer/>
                 <Services/>
                 <About/>
-                <Footer/>
+
             </main>
+            <Footer/>
         </>
     )
 }
