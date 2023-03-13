@@ -55,3 +55,14 @@
     font-family: 'Droid Sans Mono', sans-serif;
     transition: .3s;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img {
+    padding-right: 15px;
+}

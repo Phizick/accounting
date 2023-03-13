@@ -1,0 +1,39 @@
+.nav {
+    padding: 24px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    width: 6px;
+    height: 10px;
+    align-self: center;
+    padding: 0 33px;
+}
+
+.link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.text {
+    margin: 0;
+    align-self: center;
+    padding-bottom: 5px;
+    color: rgba(35, 38, 47, 1);
+    font-width: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+
+.textDisable {
+    color: rgba(119, 126, 144, 1);
+
+}
