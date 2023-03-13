@@ -8,6 +8,19 @@
     transform-origin: center left;
 }
 
+.tile:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.tile:hover ~ .tile {
+    transform: translate3d(25px, 0, 0);
+}
+
+.container:hover {
+    box-shadow: 20px 64px 64px -40px rgba(31, 47, 70, .35);
+}
+
 .container {
     list-style-type: none;
     display: flex;
@@ -55,6 +68,10 @@
     transition: .5s;
 }
 
+.tile:hover .profileContainer {
+    transform: scale(1.4);
+    padding: 10px 0;
+}
 
 .profileImg {
     width: 64px;
@@ -89,6 +106,10 @@
     font-size: 14px;
     transition: .3s;
     opacity: 0;
+}
+
+.tile:hover .about {
+    opacity: 1;
 }
 
 

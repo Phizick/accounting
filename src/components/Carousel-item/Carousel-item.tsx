@@ -1,21 +1,29 @@
 import React from 'react'
 import CarouselItemStyles from './Carousel-item.module.css'
+import HeaderPageStyles from "../Header/Header.module.css";
+import {Link} from "react-router-dom";
 
 interface ICarouselItemProps {
     text: string,
     price: string,
     img: string,
-    count: string
+    count: string,
+    link: string
 }
+
+
+
 
 export const CarouselItem: React.FC<ICarouselItemProps> = ({
     text = '',
     price = '',
     img = '',
-    count = ''
+    count = '',
+    link ='',
 }) => {
     return (
         <div className={CarouselItemStyles.tile}>
+            <Link to={link} className={HeaderPageStyles.link} >
             <div className={CarouselItemStyles.container}>
                 <div className={CarouselItemStyles.itemHeader}>
                     <div className={CarouselItemStyles.labelContainer}>
@@ -36,6 +44,7 @@ export const CarouselItem: React.FC<ICarouselItemProps> = ({
                     </div>
                 </div>
             </div>
+            </Link>
         </div>
     )
 }

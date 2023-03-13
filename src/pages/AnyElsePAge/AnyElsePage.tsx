@@ -1,28 +1,27 @@
 import {Header} from "../../components/Header/Header";
-import BeginPageStyles from './BeginPage.module.css';
+import {FC} from 'react'
+import BeginPageStyles from '../BeginPage/BeginPage.module.css';
 import {Footer} from "../../components/Footer/Footer";
-import img from '../../images/img_begin.png'
+import img from '../../images/anyelse.png'
 import {CardItem} from "../../components/CardItem/CardItem";
-import imgProfile from '../../images/min1.jpg'
+import imgProfile from '../../images/min-5.jpg'
 import shape from '../../images/Shape_down.png'
 import {Breadcrumbs} from "../../components/Breadcrumbs/Breadcrumbs";
 import ScrollToTop from "../../utils/ScrollToTop/ScrollToTop";
 
 
-export const BeginPage = () => {
+export const AnyElsePage: FC = () => {
     return (
         <>
             <ScrollToTop />
             <Header/>
-            <Breadcrumbs text={'Регистрация бизнеса'}/>
+            <Breadcrumbs text={'Что-нибудь еще'}/>
             <div className={BeginPageStyles.imgContainer}>
                 <img src={img} alt={''} className={BeginPageStyles.img}/>
             </div>
-
-
             <main className={BeginPageStyles.mainContent}>
                 <div className={BeginPageStyles.about}>
-                    <CardItem title={'Регистрация бизнеса'} text={'Простая регистрация вашего бизнеса'} price={'110 BYN'} img={imgProfile}/>
+                    <CardItem title={'Что-нибудь еще'} text={'Что-нибудь'} price={'150 BYN'} img={imgProfile}/>
                 </div>
                 <div className={BeginPageStyles.mainText}>
                     <div className={BeginPageStyles.textContainer}>
@@ -46,7 +45,6 @@ export const BeginPage = () => {
                         </div>
                         <p className={BeginPageStyles.text}>The Stacks series of products: Stacks: Landing Page Kit, Stacks: Portfolio Kit,  Stacks: eCommerce Kit. "Stacks is a production-ready library of stackable content blocks built in React Native. Mix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts or hit the ground running with 10 pre-built templates, all in light or dark mode." </p>
                     </div>
-
                 </div>
             </main>
             <Footer/>

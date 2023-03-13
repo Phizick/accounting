@@ -7,9 +7,11 @@ import {Services} from "../../components/Services/Services";
 import {About} from "../../components/About/About";
 import {Footer} from "../../components/Footer/Footer";
 
+
 export const MainPage = () => {
     return (
         <>
+
             <Header/>
             <main className={MainPageStyles.mainContent}>
                 <Head/>
